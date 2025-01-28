@@ -4,6 +4,5 @@ int main{
     float m;
     scanf("%f",&m);
     printf("%.2f",m);
-    return 0;
 
 }
