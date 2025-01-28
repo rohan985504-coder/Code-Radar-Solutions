@@ -2,8 +2,8 @@
 
 
 int main() {
-    float m,n;
-    scanf("%f",&m, &n);
+    double m,n;
+    scanf("%lf",&m, &n);
     if(m>n){
         printf("True");
     }
