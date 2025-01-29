@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    double m;
-    scanf("%ls",&m);
+    int m;
+    scanf("%d",&m);
     if(m> !0){
         printf("False");
     }
