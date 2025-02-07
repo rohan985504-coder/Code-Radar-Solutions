@@ -3,7 +3,7 @@
 int main() {
     int c,s;
     scanf("%d",&c, &s);
-    if(c<s){
+    if(s > c){
         printf("Profit");
     }
     else if (c>s){
