@@ -8,15 +8,15 @@ int main() {
     switch(ch) {
         case'+':
             result = a + b;
-            printf("%f",result);
+            printf("%d",result);
             break;
         case'-':
             result = a - b;
-            printf("%f",result);
+            printf("%d",result);
             break;
         case'*':
             result = a * b;
-            printf("%f",result);
+            printf("%d",result);
             break;
         case'/':
             result = a / b;
