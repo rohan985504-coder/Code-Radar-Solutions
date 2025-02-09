@@ -7,8 +7,8 @@ int main() {
     if(s==a){
         printf("Yes");
     }
-    else(
+    else{
         printf("No");
-    )
+    }
     return 0;
 }
