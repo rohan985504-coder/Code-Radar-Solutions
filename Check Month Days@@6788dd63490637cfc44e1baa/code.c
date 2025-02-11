@@ -37,6 +37,7 @@ int main() {
         case'1':
         printf("31");
         break;
+        default:
     }
     
     return 0;
