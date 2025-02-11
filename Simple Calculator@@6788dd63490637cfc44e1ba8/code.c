@@ -8,21 +8,22 @@ int main() {
     switch(ch) {
         case'+':
             result = a + b;
-            printf("%d",result);
+            printf("%.f",result);
             break;
         case'-':
             result = a - b;
-            printf("%d",result);
+            printf("%.f",result);
             break;
         case'*':
             result = a * b;
-            printf("%d",result);
+            printf("%.f",result);
             break;
         case'/':
             result = a / b;
-            printf("%f",result);
+            (b==0)?printf("error"):printf("%.f",result);
             break;            
-
+        default:
+        printf("error");
 
     }
     return 0;
