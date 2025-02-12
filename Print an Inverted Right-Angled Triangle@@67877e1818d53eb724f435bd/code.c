@@ -1,4 +1,4 @@
-# include <studio.h>
+# include <stdio.h>
 int main()
 {
     int a;
@@ -9,6 +9,7 @@ int main()
         {
             printf("*");
         }
+        printf("\n");
     }
 
 
