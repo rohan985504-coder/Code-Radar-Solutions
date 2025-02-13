@@ -1,15 +1,18 @@
-#include<stdio.h>
-int main(){
-    int a,b,i;
+# include <stdio.h>
+int main()
+{
+    int a;
     scanf("%d",&a);
-    for(i=1;i<=a;i++){
-        for(b=1;b<=i;b++){
-          for(b=1;b<=a-1;b++){
-          printf(" ");
-    } 
-         printf("*");   
+    for(int i=1;i<=a;i++)
+    {
+        for(int b=1;b<=i;b++)
+        {
+            printf("* ");
         }
         printf("\n");
     }
+
+
+
     return 0;
 }
