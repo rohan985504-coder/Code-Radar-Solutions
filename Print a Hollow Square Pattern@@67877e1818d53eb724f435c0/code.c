@@ -1,16 +1,17 @@
 # include <stdio.h>
 int main()
 {
-    int a;
+    int a,b;
     scanf("%d",&a);
     for(int i=1;i<=a;i++){
-        for(int y=1;y<=a;y++){
-            printf("*");
+        for(int b=1;b<=a;b++)
+        {
+            if(i==1 || i==n || j==1 || j==n){
+            printf(" *");
+            }
+        }else{
+            printf(" ")
         }
-        // for(int b=1;b<=a;b++)
-        // {
-        //     printf("*");
-        // }
         printf("\n");
     }
     return 0;
